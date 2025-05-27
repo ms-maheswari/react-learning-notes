@@ -205,11 +205,11 @@ function RegistrationForm() {
         <input
           type="checkbox"
           name="hobbies"
-          value="Traveling"
+          value="Travelling"
           onChange={handleChange}
-          checked={form.hobbies.includes("Traveling")}
+          checked={form.hobbies.includes("Travelling")}
         />{" "}
-        Traveling
+        Travelling
       </label>
       <label>
         <input
