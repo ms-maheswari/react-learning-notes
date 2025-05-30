@@ -1,16 +1,16 @@
-# 🌟 Props in React
+#  Props in React
 
 - **Props** = Properties  
 - Props are used to **pass data** from one component to another.
 
 
-## 🔹 Why Use Props?
+##  Why Use Props?
 
 - To **send data** from **parent** to **child** component
 - Makes components **reusable** and **dynamic**
 
 
-## 🧾 Example
+##  Example
 
 ### Parent Component
 
@@ -32,3 +32,13 @@ function Welcome(props) {
 
 - Props are immutable.
 
+## Prop Drilling
+- Prop Drilling is the process of passing data from a parent component to deeply nested child components via props, even when intermediate components don’t need the data.
+
+It becomes a problem when:
+
+- You have deeply nested components
+
+- You're passing the same props through many levels
+
+- It leads to messy, hard-to-maintain code
