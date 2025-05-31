@@ -21,3 +21,22 @@ import { createContext } from 'react';
 const UserContext = createContext();
 export default UserContext;
 ```
+
+## Step 2: Provide the Context
+
+```js
+// App.js
+import React from 'react';
+import UserContext from './UserContext';
+import Child from './Child';
+
+function App() {
+  return (
+    <UserContext.Provider value="Maheswari">
+      <Child />
+    </UserContext.Provider>
+  );
+}
+
+export default App;
+```
