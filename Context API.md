@@ -11,3 +11,13 @@ It's ideal for:
 - Language localization
 
 - Global configuration
+
+## Step 1: Create the Context
+
+```js
+// UserContext.js
+import { createContext } from 'react';
+
+const UserContext = createContext();
+export default UserContext;
+```
