@@ -41,7 +41,7 @@ function App() {
 export default App;
 ```
 
-## Consume the Context
+## Step 3: Consume the Context
 
 ```js
 // Child.js
@@ -60,3 +60,7 @@ export default Child;
 ```js
 Hello, Maheswari!
 ```
+
+- `createContext()` -	Create a context object
+- `Provider` -	Provides context value
+- `useContext()` -	Access value inside components
