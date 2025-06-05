@@ -1,4 +1,4 @@
-In React (especially with React Router), navigation means moving between different pages or views in your application without reloading the entire webpage.
+In React (especially with React Router), **navigation means moving between different pages or views** in your application without reloading the entire webpage.
 
 ## What is Navigation?
 Navigation is how users go from:
@@ -9,7 +9,7 @@ Navigation is how users go from:
 
 `/login → /dashboard`
 
-In React apps, we use navigation to load different components based on the current URL path — all within a Single Page Application (SPA).
+In React apps, we use navigation to **load different components based on the current URL path** — all within a Single Page Application (SPA).
 
 | Feature        | Tool                     | Description                            |
 | -------------- | ------------------------ | -------------------------------------- |
