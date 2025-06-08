@@ -14,5 +14,5 @@ In React apps, we use navigation to **load different components based on the cur
 | Feature        | Tool                     | Description                            |
 | -------------- | ------------------------ | -------------------------------------- |
 | Links          | `Link` / `NavLink`       | For clickable navigation               |
-| Programmatic   | `useNavigate()`          | For navigation via buttons or logic    |
+| Programatic   | `useNavigate()`          | For navigation via buttons or logic    |
 | Route Matching | `<Routes>` and `<Route>` | To decide what to render for each path |
